@@ -11,11 +11,11 @@ const timer = new Timer(durationInput, startButton, pauseButton,{
     },
 
     onTick(){
-
+        console.log('time is ticking')
     },
 
     onComplete(){
-
+        console.log('all done')
     }
 
 })
